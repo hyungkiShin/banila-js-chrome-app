@@ -1,3 +1,86 @@
 .hidden {
   display: none;
 }
+
+body{
+  margin: 0px;
+  position: relative;
+  width: 95%;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.header{
+  width: 100%;
+  position: absolute;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 30px ;
+  color: white;
+}
+
+.center{
+  position: absolute;
+  color: white;
+  top: 25%;
+  right: 40%;
+  font-size: 50px;
+  
+}
+
+.section{
+  position: absolute;
+  top: 40%;
+  right: 41%;
+}
+
+.btn{
+  border: none;
+  background-color:transparent;
+  width: 40px;
+  height: 40px;
+}
+
+.section i{
+  color: white;
+  position: absolute;
+  top: 7px;
+  font-size: 23px;
+  right: 7px;
+}
+
+.section input:first-child{
+  width: 180px;
+  border-radius: 20px;
+  padding: 10px 10px;
+}
+
+.section_hello{
+  color: white;
+  position: absolute;
+  width: 400px;
+  right: 38%;
+    top: 38%;
+
+  text-align: center;
+}
+
+.todo{
+  position: absolute;
+  top: 46%;
+  right: 41%;
+}
+
+.todo input{
+  width: 250px;
+  border-radius: 20px;
+  padding: 10px 10px;
+
+}
+
+#todo-list{
+  
+  background-color: rgba(225, 225, 225, 0.4);
+  backdrop-filter: blur(5px);
+  border-radius: 10px;
+  box-shadow: 2px 7px 15px 8px rgba(225, 225, 225, 0.);
+}
